@@ -15,6 +15,9 @@
    src: url('../fonts/CenturyGothic-Bold.woff') format('woff'),
         url('../fonts/CenturyGothic-Bold.svg#CenturyGothic-Bold') format('svg');
 }
+body{
+	background-color: #a8d7f6;
+}
 div{
 	padding: 0;
 	margin: 0;
@@ -33,14 +36,14 @@ div{
 .left, .right, .bottom, .top{
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-color: transparent;	
+	background-color: transparent;
 }
 .left{
 	float: left;
 	width: 129px;
 	height: 100%;
 	background-image: url('../img/left.png');
-	
+
 }
 .right{
 	float: left;
@@ -122,7 +125,7 @@ a.social-icon {
 	background-position: 0 0px;
 	background-color: transparent;
 	display: inline-block;
-	float: left;	
+	float: left;
 }
 a.twitter{
 	background-image: url('../img/twitter-icon.png');
