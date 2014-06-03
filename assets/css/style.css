@@ -32,6 +32,7 @@ div{
 	left: 0;
 	right: 0;
 	margin: auto;
+	background-color: #fff;
 }
 .left, .right, .bottom, .top{
 	background-repeat: no-repeat;
