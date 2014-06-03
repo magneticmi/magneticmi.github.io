@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'BasqueroleRegular';
+    src: url('../fonts/basquerole.eot');
+    src: url('../fonts/basquerole.eot') format('embedded-opentype'),
+         url('../fonts/basquerole.woff') format('woff'),
+         url('../fonts/basquerole.ttf') format('truetype'),
+         url('../fonts/basquerole.svg#BasqueroleRegular') format('svg');
+}
+div{
+	padding: 0;
+	margin: 0;
+}
+.splash {
+	width: 1063px;
+	height: 768px;
+	border: 1px solid #E4E4E4;
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+.left, .right, .bottom, .top{
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	background-color: transparent;	
+}
+.left{
+	float: left;
+	width: 129px;
+	height: 100%;
+	background-image: url('../img/left.png');
+	
+}
+.right{
+	float: left;
+	width: 934px;
+}
+.top{
+	width: 934px;
+	height: 360px;
+	background-image: url('../img/header.png');
+	background-position: 197px 70px;
+}
+.middle{
+	width: 934px;
+}
+.bottom{
+    background-image: url("../img/bottom-bg.png");
+    background-repeat: repeat-y;
+    bottom: 0;
+    height: 360px;
+    position: absolute;
+    width: 934px;
+}
+h4.title{
+	font-family: "Century Gothic",CenturyGothic,"Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	margin: 0px;
+	font-weight: bold;
+	font-size: 20px;
+	padding: 10px 0px 0px 65px;
+}
+.middle .title{
+	color: #5C9682;
+}
+.bottom .title{
+	color: #48849D;
+}
+p.desc{
+	font-family: "Century Gothic",CenturyGothic,"Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	padding: 0 65px;
+	margin: 10px 0 40px;
+	color: #455967;
+}
+p.connect{
+	padding-right: 0px;
+}
+p.info{
+	font-family: 'BasqueroleRegular';
+	font-size: 20px;
+	padding: 10px 65px 0;
+	color: #455967;
+}
+a.tel{
+	font-family: "Century Gothic",CenturyGothic,"Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-weight: bold;
+	font-size: 22px;
+	color: #48849D;
+	text-decoration: none;
+}
+a.mail{
+	font-family: "Century Gothic",CenturyGothic,"Apple Gothic",AppleGothic,"URW Gothic L","Avant Garde",Futura,sans-serif;
+	font-weight: normal;
+	font-size: 20px;
+	color: #455967;
+	text-decoration: none;
+	float: left;
+	width: 755px;
+}
+a.social-icon {
+	width: 42px;
+	height: 44px;
+	background-repeat: no-repeat;
+	background-position: 0 0px;
+	background-color: transparent;
+	display: inline-block;
+	float: left;	
+}
+a.twitter{
+	background-image: url('../img/twitter-icon.png');
+	background-position: 0 4px;
+}
+a.facebook{
+	background-image: url('../img/facebook-icon.png');
+}
